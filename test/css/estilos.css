@@ -1,0 +1,138 @@
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	}
+nav.navbar.navbar-default{
+	margin-bottom: 0px;
+}
+nav.navbar.navbar-default {
+border-bottom: 3px solid black;
+}
+div.row{
+	margin-bottom: 20px;
+}
+div.col-md-6 {
+padding-top: 20px;
+font-size: 19px;
+line-height: 160%;
+color: #666666;
+}
+div.col-md-6 span{
+	color: #0099FF;
+	text-decoration: underline;
+	/**/
+}
+div.col-md-6 span.link_ver{
+	font-size: 14px;
+}
+div.col-md-6 a{
+	display: block;
+}
+div.col-md-6 p,h2{
+	/*padding-left: 100px;*/		
+}
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+ul{
+	list-style-type:none;
+	padding-left: 20px; 
+}
+
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 75px;
+    height: 75px;
+    padding-top: 0;
+}
+.navbar-default .navbar-brand {
+	color: #777;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #333;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-size: 16px;
+}
+ul.dropdown-menu li a{
+	line-height: 30px;
+	height: 30px;
+	color: white;
+	background-color: black	;
+	font-size: 14px;	
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+	background-color: #3A4345;
+	color: #339900;
+}
+.dropdown-menu{
+	background-color: black;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+color: #FF9900;
+background-color: transparent;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+background-color: black;
+color: #FF9900;
+}
+.navbar-default {
+  background-color: #3A4345;
+  border-color: #e7e7e7;
+}
+
+div#contacto {
+	display: inline-block;
+	color: white;
+	
+	margin-top: 20px;
+}
+
+
+footer div{	
+	padding-top: 15px;
+	border-top: 2px solid black;
+}
+
+
+footer div figure{	
+	display: inline-block;
+	margin: 0px;
+	margin-left: 20px;
+	vertical-align: top;	
+}
+.cabCont{
+	width: 100%;	
+	background-image: url("../img/cabana1.png");    
+	height: 446px;
+}
+
+form.form-reserva{
+	width: 290px;
+	height: 220px;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.5);
+	position: relative;
+	top: 226px;
+	
+}
+
+
+form.form-reserva select{
+	width: 70px;
+	height: 30px;
+}
+form.form-reserva div{
+	height: 30px;
+}
+
+@media(max-width:990px) {
+
+	div#contacto{
+		margin-top: 0px;
+		/*display: none;*/
+	}
+}
+
+
